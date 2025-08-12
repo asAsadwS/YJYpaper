@@ -259,11 +259,16 @@
 对第二十四页论文中的图2.15（上图2.1）数据进行扒取，并对图片进行线性拟合（见上图2.2），得出图片线性拟合为y=0.1067xR2=01083，详细数据见[附件](./paper/testdata.csv)。  
 经验证，该数据的r方仅有0.1，证明生育数量与家暴发生率几乎无关。  
 
-3. 分析错误(第二十五页倒数第六行内容)：   
+3. 分析错误与宗教偏见(第二十五页倒数第六行内容)：   
 
 >本文用各地区人均道观数据衡量该地区思想传统程度
 
-道教属于宗教范畴，不同地区的宗教分布不一致，故人均道观数跟当地思想传统程度无直接关系。
+**方法论错误**：道教属于宗教范畴，不同地区的宗教分布不一致，故人均道观数跟当地思想传统程度无直接关系。
+
+**宗教偏见问题**：
+- 仅选择道教场所而忽略佛教寺庙、基督教堂等其他宗教场所，存在明显的**选择性偏见**
+- 在多元宗教环境中单一选择道教数据，缺乏宗教代表性和包容性
+- 该选择性使用可能构成对其他宗教的**系统性歧视**
 
 4. 强行拟合(第二十六页图2.18)：  
 
@@ -757,7 +762,20 @@ c^f + c^m = (1+\alpha)(w^f + w^m - \phi b)
 武大经管的毕业论文引用文献是按首字母排序的吗？不用交叉引用的吗？感觉非常奇怪。请武大官方给出确切的格式说明。 
 
 ### 学术伦理问题
-该文章阐述家庭暴力与生育、传统文化、宗教、女性就业之间的关联，在数据拟合度低的情况下强行将家暴与文化、宗教捆绑，该课题可能涉及较为严重的**学术伦理问题**。  
+该文章阐述家庭暴力与生育、传统文化、宗教、女性就业之间的关联，在数据拟合度低的情况下强行将家暴与文化、宗教捆绑，该课题可能涉及较为严重的**学术伦理问题**。
+
+#### 宗教歧视问题
+论文在宗教数据使用方面存在明显的**选择性偏见**和**宗教歧视**问题：
+
+1. **单一宗教数据选择**：论文第二十五页仅使用"各地区人均道观数据"来衡量地区思想传统程度，完全忽略了佛教寺庙、基督教堂、清真寺等其他宗教场所。
+
+2. **宗教代表性缺失**：中国作为多元宗教社会，佛教、基督教、伊斯兰教等宗教在不同地区都有重要影响，仅选择道教数据存在严重的**代表性偏差**。
+
+3. **方法论歧视**：在没有任何理论或实证依据的情况下，将道教等同于"传统思想"，而排除其他宗教，构成了系统性的**宗教歧视**。
+
+4. **逻辑矛盾**：如果作者真如外界传言具有佛教背景（如手抄佛经等），却在学术研究中刻意排除佛教场所数据，更凸显了其研究方法的**偏见性**和**不诚实性**。
+
+该问题不仅违反了学术研究的**客观性原则**，也可能涉及**宗教歧视**的伦理问题，严重损害了学术研究的公正性和可信度。  
 
 ### 文献引用错误
 
@@ -831,7 +849,11 @@ c^f + c^m = (1+\alpha)(w^f + w^m - \phi b)
 例如第九至十页1.2.2小节引用的论文，我在参考文献中大部分都找不到。
 
 12. 参考文献内容疑似未在正文引用  
-参考文献[90], [91], [96], [97], [99], [68] 未在正文中找到
+通过对第一作者进行全文检索（杨在正文中并没有使用参考文献编号来进行引用），发现以下参考文献在正文中没有被引用：
+```
+[2], [3], [4], [5], [6], [8], [9], [10], [11], [13], [14], [15], [16], [17], [18], [19], [20], [21], [22], [23], [25], [28], [29], [31], [32], [33], [34], [37], [38], [39], [41], [42], [45], [46], [48], [49], [51], [52], [53], [54], [55], [58], [61], [62], [64], [66], [68], [70], [72], [73], [75], [76], [77], [80], [89], [90], [91], [92], [93], [94], [96], [97], [98], [99], [100], [104], [105]
+```
+共计 67 条，占参考文献总数的一半以上。
 
 13. 参考文献格式不符合武汉大学经管学院硕士学位论文规范  
 参考文献[100]到[107]，序号与姓名间（]之后）无空格  
@@ -1150,11 +1172,19 @@ As shown above, 0.01% should be 1 out of 10,000 women.
 Data from Figure 2.15 on page 24 of the thesis (Figure 2.1 above) was extracted and linearly fitted (see Figure 2.2 above), yielding a linear fit of y=0.1067x R²=0.1083. Detailed data is available in the [attachment](./paper/testdata.csv).  
 Verification shows this data has an R² of only 0.1, proving that fertility quantity is almost unrelated to domestic violence incidence.  
 
-3. **Methodological Flaw in Cultural Measurement** (page 25, sixth line from bottom):   
+3. **Methodological Flaw in Cultural Measurement and Religious Bias** (page 25, sixth line from bottom):   
 
 >This thesis uses the number of Taoist temples per capita in each region to measure the degree of traditional thinking in that region
 
-**Analysis**: This represents a fundamental misunderstanding of cultural measurement. Religious distribution varies significantly across regions due to historical, geographical, and demographic factors unrelated to "traditional thinking." Using Taoist temple density as a proxy for traditionalism lacks theoretical foundation and empirical validity.
+**Methodological Error**: This represents a fundamental misunderstanding of cultural measurement. Religious distribution varies significantly across regions due to historical, geographical, and demographic factors unrelated to "traditional thinking." Using Taoist temple density as a proxy for traditionalism lacks theoretical foundation and empirical validity.
+
+**Religious Discrimination Issues**:
+- **Selective Religious Data Usage**: The thesis exclusively uses Taoist temple data while completely ignoring Buddhist temples, Christian churches, mosques, and other religious facilities, demonstrating obvious **selection bias**
+- **Lack of Religious Representativeness**: In China's multi-religious society, Buddhism, Christianity, Islam, and other religions have significant influence across different regions. Using only Taoist data creates serious **representational bias**
+- **Methodological Discrimination**: Without any theoretical or empirical justification, the thesis equates Taoism with "traditional thought" while excluding other religions, constituting systematic **religious discrimination**
+- **Logical Contradiction**: If the author indeed has Buddhist background as alleged (such as copying Buddhist scriptures), yet deliberately excludes Buddhist facility data in academic research, this further highlights the **bias** and **dishonesty** in research methodology
+
+This issue not only violates the **objectivity principle** of academic research but may also involve **religious discrimination** ethical concerns, seriously undermining the fairness and credibility of academic scholarship.
 
 4. **Statistical Overfitting** (Figure 2.18, page 26):  
 
@@ -1649,7 +1679,21 @@ Are references in Wuhan University School of Economics and Management theses sor
 
 ### Ethical Considerations in Research Design
 
-**Analysis**: This thesis attempts to establish causal relationships between domestic violence and fertility, traditional culture, religion, and women's employment despite demonstrably poor data fit (R² = 0.1). The forced association of domestic violence with cultural and religious factors, particularly given the methodological deficiencies identified above, raises serious questions about research ethics and responsible scholarship. Such analyses risk perpetuating harmful stereotypes and may contribute to discriminatory attitudes toward specific cultural or religious communities.  
+**Analysis**: This thesis attempts to establish causal relationships between domestic violence and fertility, traditional culture, religion, and women's employment despite demonstrably poor data fit (R² = 0.1). The forced association of domestic violence with cultural and religious factors, particularly given the methodological deficiencies identified above, raises serious questions about research ethics and responsible scholarship. Such analyses risk perpetuating harmful stereotypes and may contribute to discriminatory attitudes toward specific cultural or religious communities.
+
+#### Religious Discrimination in Research Methodology
+
+The thesis demonstrates systematic **religious discrimination** and **selection bias** in its use of religious data:
+
+1. **Exclusive Religious Data Selection**: Page 25 exclusively uses "per capita Taoist temple data by region" to measure regional traditional thinking levels, completely ignoring Buddhist temples, Christian churches, mosques, and other religious facilities.
+
+2. **Lack of Religious Representativeness**: As a multi-religious society, China has significant influence from Buddhism, Christianity, Islam, and other religions across different regions. Selecting only Taoist data creates serious **representational bias**.
+
+3. **Methodological Discrimination**: Without any theoretical or empirical foundation, the thesis equates Taoism with "traditional thought" while excluding other religions, constituting systematic **religious discrimination**.
+
+4. **Logical Inconsistency**: If the author indeed has Buddhist background as rumored (such as copying Buddhist scriptures), yet deliberately excludes Buddhist facility data in academic research, this further highlights the **bias** and **dishonesty** in research methodology.
+
+This issue not only violates the **objectivity principle** of academic research but may also involve **religious discrimination** ethical concerns, seriously undermining the fairness and credibility of academic scholarship.  
 
 ### Bibliographic Irregularities
 
@@ -1723,7 +1767,11 @@ Paper URL: https://www.aeaweb.org/articles?id=10.1257/00028280260344588
 For example, the papers cited in section 1.2.2 on pages 9-10, most cannot be found in the reference list.
 
 12. Reference content suspected not cited in main text  
-References [90], [91], [96], [97], [99], [68] not found in main text
+By conducting a full-text search for the first author (Yang did not use reference number for citations in the main text), it was found that the following references were not cited in the main text:
+```
+[2], [3], [4], [5], [6], [8], [9], [10], [11], [13], [14], [15], [16], [17], [18], [19], [20], [21], [22], [23], [25], [28], [29], [31], [32], [33], [34], [37], [38], [39], [41], [42], [45], [46], [48], [49], [51], [52], [53], [54], [55], [58], [61], [62], [64], [66], [68], [70], [72], [73], [75], [76], [77], [80], [89], [90], [91], [92], [93], [94], [96], [97], [98], [99], [100], [104], [105]
+```
+A total of 67 references, which constitute more than half of all the references listed in the bibliography.
 
 13. Reference format does not comply with Wuhan University School of Economics and Management master's thesis standards  
 References [100] to [107], no space between number and name (after ])  
